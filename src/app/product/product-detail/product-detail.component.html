@@ -1,0 +1,20 @@
+<mat-card>
+
+  <div *ngIf="!product">
+    ERROR AL CONSULTAR EL PRODUCTO
+  </div>
+
+  <div *ngIf="product">
+    <h2>{{product.getName()}}</h2>
+    <div>
+      FICHA DEL PRODUCTO
+    </div>
+  </div>
+
+  <br/>
+  <mat-divider></mat-divider>
+  <br/>
+
+  <ui-button [text]="homeButtonText" (executeAction)="goHome($event)"></ui-button>
+  <ui-button [text]="backButtonText" (executeAction)="goBack()"></ui-button>
+</mat-card>

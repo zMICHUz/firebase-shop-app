@@ -1,0 +1,13 @@
+<mat-card>
+  <ng-container *ngIf="!productList || productList.length === 0">
+    <div class='error'>{{error}}</div>
+  </ng-container>
+
+  <ng-container *ngIf="productList && productList.length > 0">
+    <mat-grid-list cols="4" rowHeight="2:1">
+      <mat-grid-tile *ngFor="let product of productList">
+        <mat-card (click)="navigateTo(product.getId())">{{product.getName()}}</mat-card>
+      </mat-grid-tile>
+    </mat-grid-list>
+  </ng-container>
+</mat-card>

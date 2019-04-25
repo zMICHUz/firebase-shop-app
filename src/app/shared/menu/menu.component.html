@@ -1,0 +1,9 @@
+<ng-container *ngFor="let menuItem of menuItems">
+    <button
+        mat-button
+        routerLink="{{menuItem.getPath()}}"
+        routerLinkActive="active"
+    >
+        {{menuItem.getText()}}
+    </button>
+</ng-container>

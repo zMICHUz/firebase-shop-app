@@ -1,0 +1,3 @@
+{
+  "/products/cat/:type": "/products?type=:type"
+}

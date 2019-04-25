@@ -1,0 +1,72 @@
+{
+  "profiles": [
+    {
+      "id": 1,
+      "name": "Andy",
+      "admin": true
+    },
+    {
+      "id": 2,
+      "name": "Lisa",
+      "admin": false
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "type": "tv",
+      "name": "Samsung 1",
+      "inches": "42\""
+    },
+    {
+      "id": 2,
+      "type": "tv",
+      "name": "Samsung 2",
+      "inches": "32\""
+    },
+    {
+      "id": 3,
+      "type": "tv",
+      "name": "Samsung 3",
+      "inches": "21\""
+    },
+    {
+      "id": 4,
+      "type": "iron",
+      "name": "Ufesa 1"
+    },
+    {
+      "id": 5,
+      "type": "tv",
+      "name": "Samsung 4",
+      "inches": "42\""
+    },
+    {
+      "id": 6,
+      "type": "tv",
+      "name": "Samsung 5",
+      "inches": "100\""
+    },
+    {
+      "id": 7,
+      "type": "iron",
+      "name": "Ufesa 2"
+    },
+    {
+      "id": 8,
+      "type": "iron",
+      "name": "Electrolux",
+      "watts": "1000"
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "title": "Noticia 1"
+    },
+    {
+      "id": 2,
+      "title": "Noticia 2"
+    }
+  ]
+}
